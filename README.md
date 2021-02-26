@@ -10,4 +10,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <img src="./img/baku.jpg" alt="baku weather"/>
 <img src="./img/turkey.jpg" alt="turkey weather"/>
 
-<img src="https://github.com/jafarovagulbahar/weather-app/src/img/baku.jpg" alt="Home Page" style="max-width:100%;">
+<img src="https://github.com/jafarovagulbahar/weather-app/blob/src/img/baku.jpg" alt=" Page" />
