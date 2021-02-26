@@ -9,20 +9,20 @@
   --switch-icon: var(--dark-switch-icon);
   --switch-shadow-color: var(--dark-switch-shadow);
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   line-height: 2;
 }
-body{
+body {
   background-color: #52ccee;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .App {
   text-align: center;
 }
-.main-container{
+.main-container {
   /* max-width: 1240px; */
   margin: auto;
   height: 100px;
@@ -30,37 +30,37 @@ body{
 }
 
 /* --------Search İnput------------ */
-.search-content{
+.search-content {
   margin: 50px 10px;
 }
-.search{
-  border:none;
+.search {
+  border: none;
   outline: none;
   border-radius: 10px;
   padding: 20px 10px 20px 20px;
   width: 500px;
   font-size: 20px;
 }
-.search::placeholder{
+.search::placeholder {
   font-size: 20px;
 }
 /* ---------------weather-detalies------ */
-.weather-detalies{
+.weather-detalies {
   margin: auto;
 }
 
 /* --------------------Header---------------- */
-.HeaderLogo{
+.HeaderLogo {
   font-size: 52px;
-  font-family: 'Chewy', cursive;
+  font-family: "Chewy", cursive;
   background: linear-gradient(#e4ff00, #6a47dd, rgba(255, 255, 255, 0.588));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.HeaderLogo span{
+.HeaderLogo span {
   -webkit-text-fill-color: #fff;
 }
-.header-name{
+.header-name {
   position: absolute;
   top: 20px;
   align-items: center;
@@ -84,7 +84,7 @@ body{
   align-items: center;
   z-index: 100;
 }
-#page{
+#page {
   padding: 20px;
 }
 .switch-label::before,
@@ -121,14 +121,14 @@ body{
   left: 1rem;
 }
 /* -----------Footer-------------- */
-.footer{
-      bottom: 20px;
-      position: absolute;
-      display: flex;
-      width: 100%;
-      justify-content: center;
+.footer {
+  bottom: 20px;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
-.footer a{
+.footer a {
   text-decoration: none;
   color: #fff;
 }
@@ -149,23 +149,23 @@ body{
   --switch-shadow-color: var(--light-switch-shadow);
   --switch-icon: var(--light-switch-icon);
   height: 100em;
-  background-color:rgba(0, 0, 0, 0.714);
+  background-color: rgba(0, 0, 0, 0.714);
   color: var(--switch-shadow-color);
 }
 
 /* -------------Responsive Design----------- */
 
-@media screen and (max-width:480px){
-  .search{
+@media screen and (max-width: 480px) {
+  .search {
     width: 300px;
   }
-  img{
-    width: 200px ;
+  img {
+    width: 200px;
   }
-  .HeaderLogo{
+  .HeaderLogo {
     font-size: 20px;
   }
-  .header-name{
+  .header-name {
     top: 70px;
   }
 }
