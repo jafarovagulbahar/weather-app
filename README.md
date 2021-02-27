@@ -16,5 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Demo Link
 
-<a href="wwweather.netlify.app">weatherio.com</a>
-wwweather.netlify.app
+<!-- <a href="wwweather.netlify.app">weatherio.com</a>
+wwweather.netlify.app -->
+
+[wwweather.netlify.app](weatherio.com)
