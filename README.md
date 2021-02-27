@@ -11,6 +11,4 @@ Gulabahar Jafarova
 
 ### `npm start`
 
-# Demo Link
 
-<a href="https://wwweather.netlify.app">weather.com</a>
